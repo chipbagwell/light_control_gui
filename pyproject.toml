@@ -1,0 +1,15 @@
+[project]
+name = "light_control_gui"
+authors = [
+    {name = "Chip Bagwell", email = "chip.bagwell@gmail.com"},
+]
+description = "GUI for controlling 2023 JCHS Marching Band lights on props"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "BSD-3-Clause"}
+dependencies = [
+    "PyQt5",
+    "PyQt5-Qt5",
+    "PyQt5-sip"
+]
+dynamic = ["version"]

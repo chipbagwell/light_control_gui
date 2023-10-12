@@ -14,7 +14,7 @@ STAIR_GRN_PIN = '7'
 ALL_PINS = [RED_PIN, BLU_PIN, GRN_PIN, STAIR_RED_PIN, STAIR_BLU_PIN, STAIR_GRN_PIN]
 
 # nodes
-nodes = '31b325,31b322,31b31e,31b325'
+nodes = '31b325,31b322,31b31e,31b325,31b347'
 
 # commands
 cmd_preamble =  ['toolbelt', '-p', 'S1', 'rpc', 's', 'dm', '-d', '50', nodes]
